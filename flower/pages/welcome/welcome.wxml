@@ -1,0 +1,4 @@
+<!--pages/welcome/welcome.wxml-->
+<image style="width:100px;height:100px;" src="/images/avatar/1.png"></image>
+<text>Hello,一月</text>
+<button></button>
