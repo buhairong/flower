@@ -1,0 +1,30 @@
+/* components/movie/index.wxss */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 200rpx;
+}
+
+.poster {
+  width: 100%;
+  height: 270rpx;
+  margin-bottom: 22rpx;
+}
+
+.title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.rate-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: 6rpx;
+}
+
+.score {
+  font-size: 24rpx;
+}

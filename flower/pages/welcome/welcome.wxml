@@ -1,4 +1,9 @@
 <!--pages/welcome/welcome.wxml-->
-<image style="width:100px;height:100px;" src="/images/avatar/1.png"></image>
-<text>Hello,一月</text>
-<button></button>
+
+<view class="container">
+  <l-avatar class="l-avatar" placement="bottom" open-data="{{['userAvatarUrl', 'userNickName']}}" size="200" />
+  <text class="motto">Hello,一月</text>
+  <view bind:tap="onTap" class="journey-container">
+    <text>开启小程序之旅</text>
+  </view>  
+</view>

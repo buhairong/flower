@@ -1,0 +1,17 @@
+<!--components/post/index.wxml-->
+
+<view class="post-container" bind:tap="onJumpToDetail" data-id="{{item.postId}}">
+  <view class="post-author-date">
+    <image src="{{item.avatar}}" catch:tap="onMaxImage"></image>
+    <text>{{item.date}}</text>
+  </view>
+  <text class="post-title">{{item.title}}</text>
+  <image class="post-image" src="{{item.imgSrc}}"></image>
+  <text class="post-content">{{item.content}}</text>
+  <view class="post-like">
+    <l-icon size="32" color="#666" name="favor" />
+    <text>{{item.collection}}</text>
+    <l-icon size="32" color="#666" name="eye" />
+    <text>{{item.reading}}</text>
+  </view>
+</view>

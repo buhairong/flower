@@ -1,0 +1,5 @@
+/* components/movie-list/index.wxss */
+
+.score {
+  color: red;
+}

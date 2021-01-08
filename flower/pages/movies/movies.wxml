@@ -1,0 +1,5 @@
+<!--pages/movies/movies.wxml-->
+
+<view>
+  <movie-list></movie-list>
+</view>
