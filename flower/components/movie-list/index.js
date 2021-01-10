@@ -1,10 +1,12 @@
 // components/movie-list/index.js
 Component({
+  externalClasses: ['f-class'],
   /**
    * 组件的属性列表
    */
   properties: {
-
+    title: String,
+    movies: Array
   },
 
   /**

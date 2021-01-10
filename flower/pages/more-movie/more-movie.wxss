@@ -1,0 +1,12 @@
+/* pages/more-movie/more-movie.wxss */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40rpx 28rpx;
+}
+
+.movie {
+  margin-bottom: 30rpx;
+}

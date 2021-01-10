@@ -1,5 +1,22 @@
 /* components/movie-list/index.wxss */
 
-.score {
-  color: red;
+.container {
+  padding: 36rpx 28rpx;
+  background-color: #fff;
 }
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20rpx;
+}
+
+.more-text {
+  color: #1f4ba5;
+}
+

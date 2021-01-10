@@ -1,1 +1,13 @@
 /* pages/movies/movies.wxss */
+
+page {
+  background-color: #f2f2f2;
+}
+
+.movie-list {
+  margin-bottom: 20rpx;
+}
+
+.ex-search-bar {
+  height: 90rpx !important;
+}

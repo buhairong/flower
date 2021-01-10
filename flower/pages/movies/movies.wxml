@@ -1,5 +1,8 @@
 <!--pages/movies/movies.wxml-->
 
 <view>
-  <movie-list></movie-list>
+  <l-search-bar l-class="ex-search-bar" placeholder="盗梦空间" show-cancel="{{false}}" bind:linconfirm="onConfirm"></l-search-bar>
+  <movie-list f-class="movie-list" title="正在热映" movies="{{inTheaters}}" bind:tap="onGoToMore" data-type="in_theaters"></movie-list>
+  <movie-list f-class="movie-list" title="即将上映" movies="{{comingSoon}}" bind:tap="onGoToMore" data-type="coming_soon"></movie-list>
+  <movie-list title="豆瓣Top250" movies="{{top250}}" bind:tap="onGoToMore"  data-type="top250"></movie-list>
 </view>
